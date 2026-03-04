@@ -1,0 +1,38 @@
+[
+  {
+    "fund_name": "Europa Sustainable Income Bond Fund",
+    "isin": "LU0000000001",
+    "sfdr_classification": "Article 8",
+    "taxonomy_alignment_pct": 22,
+    "environmental_objective": "推广环境特征，重点覆盖低碳转型债券与绿色建筑融资。",
+    "social_objective": "不设明确社会目标阈值，仅做最低保障筛选。",
+    "governance_policy": "对发行人进行治理尽调，关注独立董事与反腐败政策。",
+    "pai_considered": "Yes",
+    "zero_emission_statement": "未披露零排放或净零保证，仅披露阶段性减排路径。",
+    "official_source": "EET_2025Q1_Official_Disclosure.pdf"
+  },
+  {
+    "fund_name": "Nordic Clean Mobility Impact Fund",
+    "isin": "LU0000000002",
+    "sfdr_classification": "Article 9",
+    "taxonomy_alignment_pct": 65,
+    "environmental_objective": "以可持续投资为目标，聚焦清洁交通与电动化供应链。",
+    "social_objective": "评估供应链劳工标准与职业安全政策。",
+    "governance_policy": "治理评分纳入投资门槛，要求重大治理争议可追溯。",
+    "pai_considered": "Yes",
+    "zero_emission_statement": "披露长期净零愿景与里程碑，不构成最终结果保证。",
+    "official_source": "EET_2025Q1_Official_Disclosure.pdf"
+  },
+  {
+    "fund_name": "Green Horizon Climate Transition Equity Fund",
+    "isin": "LU0000000003",
+    "sfdr_classification": "Article 8",
+    "taxonomy_alignment_pct": 38,
+    "environmental_objective": "推广环境特征，投资于高排放行业中的转型领先企业。",
+    "social_objective": "结合基础人权与供应链争议排除。",
+    "governance_policy": "采用治理红线机制，触发红线将降权或剔除。",
+    "pai_considered": "Partially",
+    "zero_emission_statement": "仅披露碳强度下降目标，未提及零排放承诺。",
+    "official_source": "EET_2025Q1_Official_Disclosure.pdf"
+  }
+]

@@ -1,0 +1,13 @@
+ESMA Article,Requirement,Operational Implication for Chatbot,Formal Constraint
+Article 24(1),"Provide information in clear, non-technical language","Use plain language, avoid jargon, explain technical terms",non_misleading(Output) ∧ uses_plain_language(Output)
+Article 24(2),Avoid conflicts of interest (or disclose clearly),"Disclose margin structure, fund manager compensation","conflict_disclosed(Advisor, Product, Session)"
+Article 24(3),Ensure client understands product before recommendation,"Include risk warnings, show product comparison","product_explanation_provided(Product, Session)"
+Article 24(4),Maintain appropriate records,"Maintain audit trail with timestamps, hashes",audit_log_complete(Session)
+Article 25(1),"Assess knowledge, experience, financial situation, investment objectives",Include financial profile questions in dialogue flow,"financial_profile_documented(Investor, Session)"
+Article 25(2),Recommend only suitable products,Verify recommended product in suitable_products(Investor),recommended_product(Product) ∈ suitable_products(Investor)
+Article 25(3),Provide written recommendations with reasoning,Generate recommendation report with justification (financial + sustainability),"recommendation_justified(Product, Investor, Session)"
+Article 25(4),Update recommendations regularly,Implement follow-up triggers (annual review),"update_triggered_after(Session, 12 months)"
+Article 25(5),Consider suitability for each client,Verify every recommendation passes suitability check,"∀ recommended_product(P): suitable(P, Investor)"
+Article 25a (new),"Elicit sustainability preferences (PAI, taxonomy, SFDR)","Dedicated dialogue section for sustainability (PAI, taxonomy, SFDR)","sustainability_preference_documented(Investor, PAI, Taxonomy, SFDR)"
+Article 25a (new),Assess sustainability preferences alongside financial suitability,Filter products by SFDR classification matching preference,"sustainability_preference_matched(Investor, Product)"
+Article 25a (new),Document sustainability preference elicitation & matching,Log sustainability preference + matching evidence,"log_contains(sustainability_elicitation, preference, product_match)"

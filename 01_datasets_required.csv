@@ -1,0 +1,9 @@
+Dataset Name,Source,Size,Key Fields,Status,Est. Time (months),Est. Cost (€)
+ESMA Regulatory Corpus,ESMA website + CSSF,"~50 pages (Articles 24-25, Guidelines)","Regulatory obligations, examples, FAQs",Available (public),0.5,0
+Fund Taxonomy Database,Fund prospectuses (EU),50-100 funds,"Fund name, SFDR classification, fees, risk level, ESG focus",Available (public/paid),1.0,5000
+Investor Profile Dataset,Synthetic + anonymized real data,200-500 profiles,"Age, wealth, risk aversion, ESG preference, financial situation",To create (synthetic),1.5,0
+Accounting Exam Q&A,CFA/ICAIA level 2 exams,100-200 questions,"Question, correct answer, regulation reference",Available (CFA),0.5,0
+Fund Prospectus Collection,EU funds (public),100-200 documents,"Fund objectives, fees, SFDR Article, holdings",Available (public),1.0,2000
+Compliance Annotation,Manual expert annotation,500-1000 items,"Compliance violations, severity, evidence",To create (manual),2.0,3000
+Dialogue Transcripts,Field study with fund managers,50-100 conversations,"Investor input, LLM response, compliance verdict",To collect (research),2.5,5000
+LLM Fine-tuning Corpus,Public financial documents,"10,000+ documents","Fund documents, sustainability reports, financial news",Available (various),1.0,0
